@@ -1,0 +1,1183 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: TT trailer Regular;
+  src: url(./tt_trailers/TT\ Trailers\ Trial\ Regular.ttf);
+}
+
+@font-face {
+  font-family: TT trailer Variable;
+  src: url(./tt_trailers/TT\ Trailers\ Trial\ Variable.ttf);
+}
+
+@font-face {
+  font-family: TT trailer Bold;
+  src: url(./tt_trailers/TT\ Trailers\ Trial\ Bold.ttf);
+}
+
+@font-face {
+  font-family: TT trailer ExtraBold;
+  src: url(./tt_trailers/TT\ Trailers\ Trial\ ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Fraktion Mono;
+  src: url(./PPFraktion/Mono/PPFraktionMono-Regular.otf);
+}
+
+@font-face {
+  font-family: Attila Sans Uniform;
+  src: url(./attilaSans/AttilaSansUniformBasic-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: black;
+  padding: 1rem 2.5rem;
+  border-radius: 3rem;
+  position: fixed;
+  top: 2.5%;
+  left: 11%;
+  right: 11%;
+  z-index: 5;
+}
+
+h1 {
+  font-family: TT trailer Variable, sans-serif;
+  font-size: 186px;
+  letter-spacing: -3.72px;
+  line-height: 139.5px;
+  text-align: center;
+  margin-top: 15rem;
+}
+
+h2 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin: 2.2rem 0rem;
+  text-align: center;
+}
+
+button {
+  border: none;
+}
+
+section:not(.sec-11) {
+  position: relative;
+  z-index: 2;
+}
+
+#sec-1 {
+  background-color: #f5f5f5;
+  z-index: 4;
+}
+
+.sec-1-container {
+  max-width: 78%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sec-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.75s ease-in-out;
+}
+
+.logo-div {
+  width: 195px;
+  height: 25px;
+}
+
+.logo-div img {
+  filter: invert(100%);
+}
+
+.nav-links button {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  background: none;
+  padding-right: 1.5rem;
+}
+
+.login-demo {
+  display: flex;
+}
+
+.login-btn {
+  padding: 0.8rem 1.9rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+  background-color: #f5f5f5;
+}
+
+.demo-btn {
+  border-radius: 2rem;
+  overflow: hidden;
+  width: 7rem;
+}
+
+.demo-span-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.demo-span {
+  padding: 0.8rem 1.1rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  background-color: #feed01;
+  display: block;
+}
+
+.book-demo {
+  width: 25rem;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  border: 2px solid black;
+  margin-bottom: 7.8rem;
+  transition: border-radius 0.2s ease-out;
+}
+
+.book-demo-span-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.book-demo-span {
+  padding: 1.25rem 10.1rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: #fff;
+  display: block;
+}
+
+.hold-phone-div {
+  width: 10.1rem;
+  height: 9.25rem;
+}
+
+.tiger-div {
+  width: 12.4rem;
+  height: 19rem;
+}
+
+.hold-phone-div {
+  position: absolute;
+  bottom: 18%;
+  right: 6%;
+}
+
+.tiger-div {
+  position: absolute;
+  bottom: -16.5%;
+  left: 0%;
+  z-index: 100;
+}
+
+.sec-2 {
+  background-color: #f5f5f5;
+}
+
+.sec-2-img-div {
+  max-width: 95%;
+  margin: 0 auto;
+  position: relative;
+  height: 120vh;
+  padding-bottom: 2.8rem;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+
+.sec-2-img-div img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.75s ease-in-out;
+}
+
+.sec-3 {
+  background: black;
+  padding-top: 2.2rem;
+  padding-bottom: 11.6rem;
+}
+
+.marquee-container {
+  display: flex;
+  white-space: nowrap;
+  background-color: black;
+}
+
+.marquee-logos {
+  display: flex;
+  white-space: nowrap;
+  background-color: black;
+}
+
+.sec-4 {
+  background: black;
+}
+
+.sec-4-container {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.sec-4-texts {
+  max-width: 89%;
+}
+
+.sec-4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec-4-small-header {
+  margin-bottom: 2.18rem;
+}
+
+.sec-4-small-header p {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.56rem;
+  font-weight: 600;
+  letter-spacing: -0.25px;
+  line-height: 1.72rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.sec-4-big-header {
+  margin-bottom: 2.5rem;
+}
+
+.sec-4-big-header h3 {
+  font-family: TT trailer Variable, sans-serif;
+  font-size: 7.43rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -2.38px;
+  line-height: 5.95rem;
+}
+
+.sec-4-big-header span {
+  color: #feed01;
+  text-transform: uppercase;
+}
+
+.sec-4-sub-header {
+  font-family: Fraktion Mono, sans-serif;
+  font-size: 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  margin-bottom: 6.25rem;
+}
+
+.sec-4-sub-1,
+.sec-4-sub-2,
+.sec-4-sub-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  padding-right: 1.5rem;
+}
+
+.sub-1-img-div-1,
+.sub-img-div-2,
+.sub-img-div-3 {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.sec-4-svg-div {
+  width: 5.56rem;
+  height: 16.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-5 {
+  background: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 9.5rem;
+}
+
+.sec-5 button {
+  transition: border-radius 0.1s ease-out;
+}
+
+.sec-5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.showcase-1,
+.showcase-2,
+.showcase-3,
+.showcase-4,
+.showcase-5 {
+  width: 94vw;
+  height: 85vh;
+  background-color: #fff;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 2.5rem;
+  overflow: hidden;
+  /* position: absolute; */
+}
+
+.sc-1-img-div,
+.sc-2-img-div,
+.sc-3-img-div,
+.sc-4-img-div,
+.sc-5-img-div {
+  background-color: black;
+}
+
+.showcase-1 h3 {
+  font-family: TT trailer Variable, sans-serif;
+  font-size: 7.43rem;
+  line-height: 5.95rem;
+  letter-spacing: -1.19px;
+  margin-top: 6.93rem;
+}
+
+.showcase-1-txt {
+  max-width: 71%;
+  margin: 0 auto;
+}
+
+.omnichannel {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+
+.streamline {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.68rem;
+  font-weight: 300;
+  margin-bottom: 1.875rem;
+}
+
+.showcase-1 button {
+  width: 17.8rem;
+  border: 2px solid black;
+  overflow: hidden;
+  border-radius: 0.4rem;
+}
+
+.ordering-span-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.ordering-span {
+  padding: 0.5rem 0.95rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: #feed01;
+  display: block;
+}
+
+.showcase-2 h3 {
+  font-family: TT trailer Variable, sans-serif;
+  font-size: 7.43rem;
+  line-height: 5.95rem;
+  letter-spacing: -1.19px;
+  margin-top: 6.93rem;
+}
+
+.showcase-2-txt {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.back-more {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+
+.lyty-prgm {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.68rem;
+  font-weight: 300;
+  margin-bottom: 1.875rem;
+}
+
+.showcase-2 button {
+  width: 16.6rem;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.loyalty-span-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.loyalty-span {
+  padding: 0.5rem 0.95rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: #feed01;
+  display: block;
+}
+
+.showcase-3 h3 {
+  font-family: TT trailer Variable, sans-serif;
+  font-size: 7.43rem;
+  line-height: 5.95rem;
+  letter-spacing: -1.19px;
+  margin-top: 6.93rem;
+}
+
+.showcase-3-txt {
+  max-width: 71%;
+  margin: 0 auto;
+}
+
+.catering {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+
+.robust {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.68rem;
+  font-weight: 300;
+  margin-bottom: 1.875rem;
+}
+
+.showcase-3 button {
+  width: 17.5rem;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.catering-span-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.catering-span {
+  padding: 0.5rem 0.95rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: #feed01;
+  display: block;
+}
+
+.showcase-4 h3 {
+  font-family: TT trailer Variable, sans-serif;
+  font-size: 7.43rem;
+  line-height: 5.95rem;
+  letter-spacing: -1.19px;
+  margin-top: 6.93rem;
+}
+
+.showcase-4-txt {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.pos {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+
+.simplify {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.68rem;
+  font-weight: 300;
+  margin-bottom: 1.875rem;
+}
+
+.showcase-4 button {
+  width: 19.7rem;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.aggregation-span-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.aggregation-span {
+  padding: 0.5rem 0.95rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: #feed01;
+  display: block;
+}
+
+.showcase-5 h3 {
+  font-family: TT trailer Variable, sans-serif;
+  font-size: 7.43rem;
+  line-height: 5.95rem;
+  letter-spacing: -1.19px;
+  margin-top: 6.93rem;
+}
+
+.showcase-5-txt {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.sizzle {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+
+.limitless {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.68rem;
+  font-weight: 300;
+  margin-bottom: 1.875rem;
+}
+
+.showcase-5 button {
+  width: 18.5rem;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.marketing-span-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.marketing-span {
+  padding: 0.5rem 0.95rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: #feed01;
+  display: block;
+}
+
+#sec-6 {
+  color: #fff;
+  background-color: black;
+  font-family: TT trailer Variable, sans-serif;
+  padding-bottom: 10.4rem;
+  z-index: 4;
+}
+
+#sec-6 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#sec-6 span {
+  white-space: nowrap;
+  text-wrap: nowrap;
+  font-family: TT trailer Bold, sans-serif;
+  font-size: 11.6rem;
+  line-height: 10rem;
+  letter-spacing: -3.72px;
+}
+
+.sec-6-m-div-1-container,
+.sec-6-m-div-2-container,
+.sec-6-m-div-3-container,
+.sec-6-m-div-4-container {
+  white-space: nowrap;
+}
+
+.slice-div {
+  width: 11.63rem;
+  height: 9.63rem;
+  position: absolute;
+  top: 7%;
+  left: 10%;
+  z-index: 100;
+}
+
+.sec-7 {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 12.5rem;
+}
+
+.sec-7-txt-div {
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -12rem;
+}
+
+.sec-7 h4 {
+  width: 95%;
+  margin: 0 auto;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.56rem;
+  color: #feed01;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -0.25px;
+  line-height: 1.7rem;
+  margin-bottom: 0.937rem;
+}
+
+.sec-7 p {
+  width: 85%;
+  margin: 0 auto;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 1.68rem;
+  margin-bottom: 1.56rem;
+}
+
+.sec-7-btn {
+  width: 9.5rem;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+
+.sec-7-span-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.sec-7-btn-span {
+  padding: 0.7rem 1.28rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #feed01;
+  display: block;
+  color: black;
+}
+
+#sec-8 {
+  background-color: black;
+  padding-bottom: 15.625rem;
+  z-index: 4;
+}
+
+.sec-8-container {
+  background-color: black;
+  display: flex;
+  gap: 9rem;
+}
+
+#sec-8 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec-8-quotes {
+  display: block;
+  padding-left: 2.5rem;
+}
+
+.sec-8-quotes {
+  font-family: TT trailer Bold, sans-serif;
+  font-size: 11.625rem;
+  line-height: 13.368rem;
+  color: white;
+  padding-top: 1.9rem;
+}
+
+.sec-8-arrow-number {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sec-8-left-arrow-btn {
+  display: block;
+  width: 3.31rem;
+  height: 1.375rem;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.sec-8-right-arrow-btn {
+  display: block;
+  width: 3.31rem;
+  height: 1.375rem;
+  background-color: black;
+}
+
+.sec-8-txt-div {
+  max-width: 68vw;
+  overflow-x: hidden;
+}
+
+.sec-8-txt-container {
+  display: flex;
+  width: 100%;
+  padding-top: 2.187rem;
+}
+
+.sec-8-txt-container h3 {
+  color: #fff;
+  font-family: TT trailer Variable, sans-serif;
+  font-size: 7.43rem;
+  line-height: 5.95rem;
+  letter-spacing: -1.19px;
+}
+
+.sec-8-txt-container span {
+  color: #feed01;
+  font-family: TT trailer Variable, sans-serif;
+  font-size: 7.43rem;
+  line-height: 5.95rem;
+  letter-spacing: -1.19px;
+}
+
+.sec-8-txt-container p {
+  color: #fff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-top: 1.7rem;
+}
+
+.sec-8-txt-1,
+.sec-8-txt-2 {
+  flex: 0 0 100%;
+}
+
+.arrow-number-count {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 300;
+  font-size: 1.65rem;
+  line-height: 1.79rem;
+  letter-spacing: 0.09rem;
+  color: white;
+}
+
+.flasheye-div {
+  width: 11.06rem;
+  height: 9.43rem;
+  position: absolute;
+  right: 8%;
+  bottom: 10%;
+}
+
+.sec-9 {
+  background-color: black;
+  padding-bottom: 15.625rem;
+}
+
+.sec-9 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec-9 h5 {
+  font-family: Attila Sans Uniform, sans-serif;
+  font-size: 2.437rem;
+  line-height: 2.437rem;
+  letter-spacing: -0.39px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.sec-9-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 95vw;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+}
+
+.sec-9-showcase {
+  display: flex;
+  width: 100vw;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  /* padding-right: 13.5rem; */
+}
+
+.sec-9-showcase {
+  scrollbar-width: none;
+}
+
+.sec-9-showcase::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.sec-9-showcase-1 {
+  margin-left: 2.5vw;
+}
+
+.sec-9-showcase-1,
+.sec-9-showcase-2,
+.sec-9-showcase-3,
+.sec-9-showcase-4 {
+  width: 22.5rem;
+  height: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  flex: 0 0 auto;
+  margin-right: 2.5vw;
+}
+
+.sec-9-showcase-1-txt-div,
+.sec-9-showcase-2-txt-div,
+.sec-9-showcase-3-txt-div,
+.sec-9-showcase-4-txt-div {
+  height: 55%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-top: 2px solid black;
+}
+
+.sec-9-showcase-1-img-div,
+.sec-9-showcase-2-img-div,
+.sec-9-showcase-3-img-div,
+.sec-9-showcase-4-img-div {
+  height: 45%;
+}
+
+.sec-9-sh1-sbh,
+.sec-9-sh2-sbh,
+.sec-9-sh3-sbh,
+.sec-9-sh4-sbh {
+  font-family: Fraktion Mono;
+  font-size: 0.81rem;
+  color: black;
+}
+
+.sec-9-sh1-h,
+.sec-9-sh2-h,
+.sec-9-sh3-h,
+.sec-9-sh4-h {
+  color: black;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: black;
+}
+
+.sec-9-showcase button {
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  width: 19.2rem;
+  text-transform: capitalize;
+  overflow: hidden;
+}
+
+.sec-9-sh1-span-container,
+.sec-9-sh2-span-container,
+.sec-9-sh3-span-container,
+.sec-9-sh4-span-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.sec-9-sh1-btn-span,
+.sec-9-sh2-btn-span,
+.sec-9-sh3-btn-span,
+.sec-9-sh4-btn-span {
+  padding: 1.4rem 6.7rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2rem;
+  background-color: #feed01;
+  display: block;
+}
+
+.sec-9-arrow-number-count {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.79rem;
+  color: white;
+}
+
+.sec-10 {
+  background-color: black;
+  padding-bottom: 5vh;
+  margin-bottom: -7vh;
+  border-bottom-left-radius: 3.5rem;
+  border-bottom-right-radius: 3.5rem;
+  border: 1px solid transparent;
+}
+
+.sec-10 h3 {
+  font-family: TT trailer Variable, sans-serif;
+  font-size: 7.437rem;
+  line-height: 5.95rem;
+  letter-spacing: -1.19px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.sec-10 h5 {
+  font-family: Attila Sans Uniform, sans-serif;
+  font-size: 2.437rem;
+  line-height: 2.437rem;
+  letter-spacing: -0.39px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.sec-10 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec-10-left-div,
+.sec-10-right-div {
+  width: 50%;
+  height: 90vh;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.sec-10-left-div {
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.sec-10-left-div-overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(./halftone.png);
+  background-position: center;
+  background-size: 250%;
+  background-repeat: no-repeat;
+  filter: invert(90%);
+  z-index: 1;
+  opacity: 0;
+}
+
+.sec-10-left-div-container {
+  max-width: 72%;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.sec-10-divs-container {
+  max-width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.sec-10-btn {
+  width: 9.1rem;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.sec-10-btn-span-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.sec-10-btn-span {
+  padding: 0.5rem 0.95rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: #feed01;
+  display: block;
+}
+
+.sec-11 {
+  background-color: #feed01;
+  padding-top: 12vh;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+}
+
+.sec-11 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec-11-links {
+  max-width: 73vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0rem;
+}
+
+.sec-11-links h5 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+}
+
+.sec-11-links p {
+  font-family: Fraktion Mono;
+  font-size: 0.81rem;
+  color: black;
+  text-transform: uppercase;
+}
+
+.sec-11-tech {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sec-11-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sec-11-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-btn {
+  text-transform: capitalize;
+  width: 95vw;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid black;
+  overflow: hidden;
+  border-radius: 0.4rem;
+}
+
+.footer-btn-span-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.footer-btn-span {
+  padding: 1rem 25.7rem;
+  font-family: Attila Sans Uniform, sans-serif;
+  font-size: 2.43rem;
+  background-color: #fff;
+  color: black;
+  line-height: 2.925rem;
+  display: block;
+}
+
+.footer-logo-div {
+  max-width: 95vw;
+  margin: 0 auto;
+  padding: 1.93rem 0rem;
+}
+
+.footer-sub-logo {
+  max-width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-sub-logo p {
+  font-family: Fraktion Mono;
+  font-size: 0.81rem;
+  color: black;
+  text-transform: uppercase;
+}
+
+.footer-sub-logo-3 {
+  display: flex;
+}
+
+.footer-sub-logo-3 p {
+  padding-left: 0.5rem;
+}
